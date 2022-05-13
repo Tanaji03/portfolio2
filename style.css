@@ -1,0 +1,124 @@
+table{
+	border-collapse: collapse;
+}
+td, th{
+	border: 1px solid lavender;
+	padding:5px;
+}
+th{
+	background-color: lavender;
+	color: white;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+input[type=submit]{
+	display: block;
+	background-color: #eeeeee;
+}
+body{
+	font-family: verdana, Arial, sans-serif;
+}
+/* Vertical Navigation Bar */
+
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:visited{
+	color: pink;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: black;
+}
+h1{
+	text-align: center;
+}
+nav{
+	background-color: lavender;
+	border-top: 2px purple;
+	border-bottom: 2px purple;
+	padding:5px;
+}
+body{
+	font-family: 'source sans pro', sans-serif;
+	margin: 0;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+footer{
+	background-color: lavender;
+}
+.cherry{
+	float: left;
+	max-width: 60%;
+	height: auto;
+	display: block;
+	padding-right: 30px;
+}
+
+
+
